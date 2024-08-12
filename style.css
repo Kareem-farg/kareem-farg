@@ -1,0 +1,154 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    font-size: large;
+    margin-left: 5px;
+}
+
+.silver {
+    color: #003366;
+
+}
+
+.gold {
+    color: #800000;
+}
+
+
+
+.border1 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 350px;
+    float: left;
+    margin: 50px;
+    background-color: silver;
+    border-radius: 5%;
+
+}
+
+.border2 {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    height: 500px;
+    width: 350px;
+    float: left;
+    margin: 50px;
+    background-color: gold;
+
+
+}
+
+.border3 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 350px;
+    float: left;
+    margin: 50px;
+    background-color: rgb(46, 224, 255);
+    border-radius: 5%;
+
+
+}
+
+body {
+    background-image: url(gymbackk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #121212;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.border1:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.border2:hover {
+    background-color: rgb(255, 226, 59);
+}
+
+.border3:hover {
+    background-color: #c7fccd;
+}
+
+.button {
+    text-align: center;
+    margin: 30px;
+
+}
+
+header {
+
+    background-color: black;
+}
+
+p {
+    font-size: large;
+    text-align: right;
+    color: blueviolet;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.herogym {
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
+.welcome {
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
+.but1 {
+    background: rgb(128, 128, 128);
+    width: 70%;
+    height: 10%;
+    margin-left: 14%;
+    margin-top: 20%;
+
+}
+
+.but2 {
+    background-color: rgb(212, 181, 0);
+    width: 70%;
+    height: 10%;
+    margin-left: 14%;
+    margin-top: 17%;
+
+}
+
+.but3 {
+    background-color: rgb(6, 218, 255);
+    width: 70%;
+    height: 10%;
+    margin-left: 14%;
+
+
+}
+
+.list {
+    font-size: 13px;
+}
